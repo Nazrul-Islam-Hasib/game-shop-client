@@ -12,7 +12,7 @@ const Product = (props) => {
                     <h5 className="card-title">{name}</h5>
                     <h5 className="card-text">price: {price}$</h5>
                     <Link to="/checkout">
-                        <button className="btn btn-sm btn-outline-primary" onClick={() => props.handleProduct(props.product)}>
+                        <button className="btn btn-sm btn-outline-success" onClick={() => props.handleProduct(props.product)}>
                             Buy now
                         </button>
                     </Link>

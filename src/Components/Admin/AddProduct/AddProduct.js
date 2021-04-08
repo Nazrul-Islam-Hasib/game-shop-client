@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useForm } from "react-hook-form";
-
+import './AddProduct.css'
 const AddProduct = () => {
     const { register, handleSubmit } = useForm();
     const [imageUrl, setImageUrl] = useState(null);
@@ -52,14 +52,15 @@ const AddProduct = () => {
             });
     }
     return (
-        <form onSubmit={handleSubmit(onSubmit)}>
-            <input {...register("game_name")} type="text" defaultValue="Game name" />
+        <form onSubmit={handleSubmit(onSubmit)} className="text-center product-form">
+            <p>Add new product</p>
+            <input {...register("game_name")} type="text" placeholder="Place product name" className="form-control" />
             <br />
-            <input {...register("game_price")} type="number" defaultValue="0" />
+            <input {...register("game_price")} type="number" placeholder="Place product price" className="form-control" />
             <br />
             <input type="file" onChange={handleImageUpload} />
             <br />
-            <input type="submit" />
+            <input type="submit" className="btn btn-success mt-4" />
         </form>
     );
 };

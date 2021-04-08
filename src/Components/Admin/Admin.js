@@ -19,6 +19,7 @@ const Admin = () => {
                     <AddProduct></AddProduct>
                 </div>
                 <div className="row mt-3">
+                    <h4>All products</h4>
                     <table className="table">
                         <thead>
                             <tr>

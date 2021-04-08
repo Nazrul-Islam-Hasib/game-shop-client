@@ -31,7 +31,7 @@ const Header = () => {
                         <li className="nav-item">
                             {
                                 loggedInUser.isSignedIn ? <h6>{loggedInUser.name}</h6> :
-                                <Link to="/login"><button className="btn btn-primary">Login</button></Link>
+                                <Link to="/login"><button className="btn btn-success">Login</button></Link>
                             }
                         </li>
                     </ul>

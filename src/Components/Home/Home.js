@@ -26,7 +26,6 @@ const Home = () => {
             <div>
                 <Header></Header>
                 <div className="container">
-                    <h1>Home</h1>
                     <div className="row">
                         {
                             product.map(pd => <Product key={pd._id} product={pd} handleProduct={handleProduct}></Product>)

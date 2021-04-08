@@ -55,7 +55,7 @@ const Checkout = () => {
                                 <h5 className="card-title">{name}</h5>
                                 <h5 className="card-text">price: {price}$</h5>
                                 <Link to="/orders">
-                                    <button className="btn btn-sm btn-outline-primary" onClick={handleCheckout}>
+                                    <button className="btn btn-sm btn-outline-success" onClick={handleCheckout}>
                                         Checkout
                                 </button>
                                 </Link>

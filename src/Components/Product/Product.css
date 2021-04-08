@@ -1,6 +1,13 @@
-img{
+.card{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 2.25rem !important;
+    box-shadow: 10px 10px 10px #9bf00b;
+    transition: all .5s ease;
 }
-@media only screen and (min-width: 992px){
-    img{
-    }
+.card img{
+    border-radius: 20px;
+}
+.card:hover{
+    transform: scale(1.05);
 }

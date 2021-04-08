@@ -1,10 +1,26 @@
-# Getting Started with Create React App
+# Game Shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was done via React, ExpressJs, MongoDb and Node. Client side is deployed in Firebase and Server side is deployed in heroku
 
+## Feature
+
+At home page you can see all the available games to buy. Each game is presented in a card. You can buy any game by clicking on the buy button. If you are not already logged in, then you will be redirected to the login page. There you can checkout your product. Once you checkout, in order page you can see all your orders.\
+There is an admin option. If the admin is logged in then admin can add new product or delete from available product.\
+All data will be added or deleted directly in MongoDB database.\
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `Live site`
+
+You can click the link to see the live project.\
+Open [https://game-shop-fbf77.web.app/](https://game-shop-fbf77.web.app/) to view it in the browser.
+
+### `Server site`
+
+You can click the link to see server side code.\
+Open [https://github.com/Porgramming-Hero-web-course/full-stack-server-Nazrul-Islam-Hasib](https://github.com/Porgramming-Hero-web-course/full-stack-server-Nazrul-Islam-Hasib) to view the server side implementation.
+
 
 ### `npm start`
 
@@ -39,32 +55,5 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

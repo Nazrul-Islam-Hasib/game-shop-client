@@ -8,3 +8,9 @@ li{
 h6{
     padding-top: 10px;
 }
+.nav-link{
+    color: #9bf00b;
+}
+.nav-link:hover{
+    color: #28a745;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import './DeleteProduct.css'
 const DeleteProduct = (props) => {
     const { name, price, imageUrl, _id } = props.product;
+    
     const deleteProduct = (id) => {
         const url = `https://mighty-cove-83835.herokuapp.com/delete/${id}`
         fetch(url,{
@@ -9,7 +10,12 @@ const DeleteProduct = (props) => {
         })
         .then(res => res.json())
         .then(data => {
-            console.log(data, 'Deleted successfully!')
+            if (data === true) {
+                // window.location.reload(true);
+                console.log(data, 'Deleted successfully!')
+            } else {
+                console.log(data, 'Not deleted!')
+            }
         })
     }
     return (
