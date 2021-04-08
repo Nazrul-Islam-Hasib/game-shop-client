@@ -14,7 +14,7 @@ const AddProduct = () => {
                 imageUrl: imageUrl
             }
     
-            const url = 'http://localhost:5000/addProduct';
+            const url = 'https://mighty-cove-83835.herokuapp.com/addProduct';
             fetch(url, {
                 method: 'POST',
                 headers: {

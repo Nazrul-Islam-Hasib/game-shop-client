@@ -6,7 +6,7 @@ import DeleteProduct from './DeleteProduct/DeleteProduct';
 const Admin = () => {
     const [product, setProduct] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/products')
+        fetch('https://mighty-cove-83835.herokuapp.com/products')
             .then(res => res.json())
             .then(data => setProduct(data))
     }, [])

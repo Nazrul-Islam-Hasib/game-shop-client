@@ -5,7 +5,7 @@ import OrderItem from '../OrderItem/OrderItem';
 const Order = () => {
     const [orders, setOrders] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/orders')
+        fetch('https://mighty-cove-83835.herokuapp.com/orders')
             .then(res => res.json())
             .then(data => setOrders(data))
     }, [])

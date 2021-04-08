@@ -27,7 +27,7 @@ const Checkout = () => {
         } ;
         
         console.log('checkoutclicked', newOrder)
-        const url = 'http://localhost:5000/addOrders';
+        const url = 'https://mighty-cove-83835.herokuapp.com/addOrders';
         fetch(url, {
             method: 'POST',
             headers: {

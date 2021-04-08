@@ -3,7 +3,7 @@ import './DeleteProduct.css'
 const DeleteProduct = (props) => {
     const { name, price, imageUrl, _id } = props.product;
     const deleteProduct = (id) => {
-        const url = `http://localhost:5000/delete/${id}`
+        const url = `https://mighty-cove-83835.herokuapp.com/delete/${id}`
         fetch(url,{
             method: 'DELETE'
         })
