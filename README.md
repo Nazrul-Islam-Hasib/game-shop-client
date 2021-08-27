@@ -19,7 +19,7 @@ Open [https://game-shop-fbf77.web.app/](https://game-shop-fbf77.web.app/) to vie
 ### `Server site`
 
 You can click the link to see server side code.\
-Open [https://github.com/Porgramming-Hero-web-course/full-stack-server-Nazrul-Islam-Hasib](https://github.com/Porgramming-Hero-web-course/full-stack-server-Nazrul-Islam-Hasib) to view the server side implementation.
+Open [https://github.com/Nazrul-Islam-Hasib/game-shop-server](https://github.com/Nazrul-Islam-Hasib/game-shop-server) to view the server side implementation.
 
 
 ### `npm start`
